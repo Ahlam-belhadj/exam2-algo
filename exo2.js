@@ -38,9 +38,11 @@
 // function add(nbr){
 //     nbr = parseInt(prompt('Entrez un nombre'));
 //     let i = 0;
-// ()
-//     for(let i = 0; i <= 10; i++){
-//         console.log(nbr + i);
+//
+//     while(; i <= 10; ){
+//           i++
+//           b++
+//         console.log(nbr);
 //     }
 // }
 // add()
@@ -77,3 +79,30 @@
 //    }
 // }
 // nbr()
+////////////////////////////////// Réponse8:
+// function valeurmax(number) {
+//     let array = [];
+//     for (let i = 0; i < 20; i++) {
+//         number = parseInt(prompt('Saisissez 20 nombres :'));
+//         array.push(number);
+//         console.log(array)
+//     } 
+//     let valmax = Math.max(...array);
+//     console.log(valmax)
+//     alert('Le nombre le plus grand était ' + valmax + '.')
+// }
+// valeurmax();
+////////////////////////////////// Réponse9:
+// function valeurmax2(number) {
+//     let array = [];
+//     do{
+//         number = parseInt(prompt('Saisissez des nombres :'));
+//         array.push(number);
+//         console.log(array)
+//     } while (number != 0)
+
+//     let valmax = Math.max(...array);
+//     console.log(valmax)
+//     alert('Le nombre le plus grand était ' + valmax + '.')
+// }
+// valeurmax2();
